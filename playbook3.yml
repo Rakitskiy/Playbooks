@@ -1,0 +1,11 @@
+---
+- name: add APT repo
+  hosts: PRODUCTION
+  become: yes
+
+  tasks:
+  - name: Add repo 
+    apt_repository:
+      repo: deb http://archive.canonical.com/ubuntu hardy partner
+      state: present
+
