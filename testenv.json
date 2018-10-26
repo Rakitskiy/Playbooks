@@ -10,7 +10,7 @@
     "application repo": "http://www.cumulogic.com/download/Apps/guestbookapp.zip"
   },
   "override_attributes": {
-    "mysql_hostname": " ",
-    "port": " "
+    "mysql_hostname": "CHEFDK",
+    "port": "3306"
   }
 }
