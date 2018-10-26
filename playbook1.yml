@@ -1,0 +1,10 @@
+---
+- name: Test Connection PING PONG
+  hosts: all
+  become: yes 
+
+  tasks:
+  
+  - name: PING
+    ping:
+
